@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Hakkimizda</title>
+    <link rel="stylesheet" href="../static/css/style1.css" >
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="{{ url_for('index')}}">
+                    <img
+                    class="info-block__img"
+                    src="../static/img/profile.jpg"
+                    alt="What I Literally Use On My Profile"
+                    width="75"
+                    height="75"
+                    />
+                </a>
+            </div>
+            <ul>
+                <li><a href="{{ url_for('ana_sayfa')}}">Ana Sayfa</a></li>
+                <li><a href="{{ url_for('hakkimizda')}}"class="active">Hakkimizda</a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <h1> HALA KODLAMA ÖĞRENIYORUM FAKAT BÖYLE KÜÇÜK PROJELER YAPABİLİRİM </h1>
+            <h1> NEDEN OLMASIN HA? </h1>
+        </div>
+    </div>
+
+</body>
+</html>
