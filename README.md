@@ -1,4 +1,4 @@
-# m8l1-portfolio-websitesi
+# Mezuniyet ödevi
 
 
 ## Projenizi kaydetmek istediğiniz klasöre gitmek:
