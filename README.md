@@ -29,7 +29,7 @@ Projenizi VSCode'da açınız ve aşağıdaki komutu giriniz
 NOT: `bilgisayarı kapatıp açtığınz zaman da bu komutu her zaman girmeniz gerekiyor`
 
 ```
-source venv/bin/activate
+venv/bin/activate
 pip install -r requirements.txt
 
 ```
